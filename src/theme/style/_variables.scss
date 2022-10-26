@@ -1,0 +1,25 @@
+//^ =============================== Size key ===============================
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xlg: 1200px;
+
+$base-vw: 1366px;
+$min-vw: 360px;
+
+//^ =============================== container ===============================
+$container-width: vw(1024px);
+$safe-padding: vw(5px);
+
+//^ =============================== font ===============================
+$root-font-size: 10px; //rem
+$main-font-size: 16px; //body
+$title-size: 30px;
+$main-font: "Fira Code", "sans-serif";
+$main-weight: 400;
+
+//^ =============================== colors ===============================
+$gray: #abb2bf;
+$white: #ffffff;
+$main-color: $gray;
+$accent-color: #c778dd;

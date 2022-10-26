@@ -1,0 +1,23 @@
+//********************* Import main files ****************************************************************
+// @import "fonts";
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "normalizer";
+@import "grid";
+
+//^ =============================== Global style ===============================
+html {
+  font-size: $root-font-size;
+}
+body {
+  font-weight: $main-weight;
+  font-family: $main-font;
+  font-size: $main-font-size;
+  color: $main-color;
+}
+
+// ~~~~~~~~~~~~~~~~~~~ Import other components ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@import "../components/header/header";
+
+@import "../components/footer/footer";
