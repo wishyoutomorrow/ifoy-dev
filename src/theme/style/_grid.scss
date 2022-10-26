@@ -1,11 +1,16 @@
 .container {
-  width: width($container-width, $safe-padding);
+  max-width: width($container-width);
+  height: 100%;
   margin: 0 auto;
-  padding: 0 $safe-padding;
+  padding: 0;
+  &_bg-color {
+    background-color: $dark-thin;
+  }
 }
 
 .wrapper {
   display: flex;
+  height: 100%;
 }
 
 .section {

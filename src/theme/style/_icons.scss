@@ -1,0 +1,92 @@
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: "../fonts/" !default;
+
+$icon-bitcoin: "\e900";
+$icon-card: "\e901";
+$icon-mail: "\e902";
+$icon-github: "\e903";
+$icon-dribble: "\e904";
+$icon-figma: "\e905";
+$icon-arrow-double: "\e906";
+$icon-arrow-down: "\e907";
+$icon-arrow-underline-right: "\e908";
+$icon-arrow-right: "\e909";
+$icon-logo: "\e90a";
+
+@font-face {
+  font-family: "#{$icomoon-font-family}";
+  font-display: block;
+  src: url($icomoon-font-path + "icomoon.woff2") format("woff2"),
+    url($icomoon-font-path + "icomoon.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  font-family: "#{$icomoon-font-family}" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bitcoin {
+  &:before {
+    content: $icon-bitcoin;
+  }
+}
+.icon-card {
+  &:before {
+    content: $icon-card;
+  }
+}
+.icon-mail {
+  &:before {
+    content: $icon-mail;
+  }
+}
+.icon-github {
+  &:before {
+    content: $icon-github;
+  }
+}
+.icon-dribble {
+  &:before {
+    content: $icon-dribble;
+  }
+}
+.icon-figma {
+  &:before {
+    content: $icon-figma;
+  }
+}
+.icon-arrow-double {
+  &:before {
+    content: $icon-arrow-double;
+  }
+}
+.icon-arrow-down {
+  &:before {
+    content: $icon-arrow-down;
+  }
+}
+.icon-arrow-underline-right {
+  &:before {
+    content: $icon-arrow-underline-right;
+  }
+}
+.icon-arrow-right {
+  &:before {
+    content: $icon-arrow-right;
+  }
+}
+.icon-logo {
+  &:before {
+    content: $icon-logo;
+  }
+}

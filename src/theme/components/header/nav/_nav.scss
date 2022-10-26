@@ -1,0 +1,27 @@
+.nav {
+  font-size: 1rem;
+  display: flex;
+  gap: em(32px);
+  // .nav__list
+  &__list {
+  }
+}
+.nav-list {
+  display: flex;
+  font-size: 1rem;
+  gap: vw(31px);
+  // .nav-list__item
+  &__item {
+  }
+  // .nav-list__link
+  &__link {
+    display: block;
+    color: $gray;
+    font-weight: 400;
+    font-size: em(16px);
+    line-height: em(21px, 16px);
+    &:hover {
+      color: $white;
+    }
+  }
+}

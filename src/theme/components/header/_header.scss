@@ -1,1 +1,16 @@
 @import "nav/nav";
+.header {
+  font-size: 1rem;
+  padding: em(8px) 0;
+  height: em(61px);
+  // .header__wrapper
+  &__wrapper {
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  // .header__logo
+  &__logo {
+    font-size: rem(16px);
+    line-height: em(20.99px, 16px);
+  }
+}

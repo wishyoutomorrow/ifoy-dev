@@ -1,5 +1,5 @@
 //********************* Import main files ****************************************************************
-// @import "fonts";
+@import "fonts";
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -15,6 +15,25 @@ body {
   font-family: $main-font;
   font-size: $main-font-size;
   color: $main-color;
+  background-color: $background-color;
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Blocks ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-weight: 700;
+}
+.hashtag {
+  &::before {
+    content: "#";
+    color: $accent-color;
+    font-size: rem(16px);
+    line-height: 0;
+    margin-right: em(3px, 16px);
+  }
 }
 
 // ~~~~~~~~~~~~~~~~~~~ Import other components ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

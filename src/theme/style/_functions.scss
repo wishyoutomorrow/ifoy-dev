@@ -11,7 +11,7 @@
 }
 
 //~ Calculating total size with padding
-@function width($totalWidth: 100%, $padding: 15px) {
+@function width($totalWidth: 100%, $padding: 0px) {
   $result: calc($totalWidth + ($padding * 2));
   @return $result;
 }
