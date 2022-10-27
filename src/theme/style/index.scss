@@ -12,10 +12,12 @@ html {
 }
 body {
   font-weight: $main-weight;
-  font-family: $main-font;
   font-size: $main-font-size;
   color: $main-color;
   background-color: $background-color;
+  * {
+    font-family: $main-font;
+  }
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Blocks ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -33,6 +35,28 @@ body {
     font-size: rem(16px);
     line-height: 0;
     margin-right: em(3px, 16px);
+  }
+}
+
+.btn {
+  font-size: rem(16px);
+  padding: em(8px, 16px) 1em;
+  color: $white;
+  font-weight: 500;
+  line-height: em(21px, 16px);
+  border: em(1px, 16px) solid $accent-color;
+  display: flex;
+  align-items: center;
+  gap: em(10px, 16px);
+  &:hover {
+    background-color: #c778dd33;
+  }
+  &_demo {
+    border-color: $gray;
+    color: $gray;
+    &:hover {
+      background-color: #abb2bf33;
+    }
   }
 }
 

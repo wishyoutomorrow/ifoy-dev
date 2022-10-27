@@ -23,5 +23,8 @@
     &:hover {
       color: $white;
     }
+    &:active {
+      font-weight: 500;
+    }
   }
 }
