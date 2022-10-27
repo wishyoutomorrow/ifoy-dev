@@ -1,0 +1,52 @@
+.quote {
+  font-size: 1rem;
+  text-align: center;
+  // .quote__text
+  &__text {
+    font-weight: 500;
+    font-size: em(24px);
+    line-height: em(31px, 24px);
+    color: $white;
+    display: inline-block;
+    padding: em(32px, 24px);
+    border: em(1px, 24px) solid $gray;
+    position: relative;
+    &::after,
+    &::before {
+      content: "\e912";
+      font-family: "icomoon";
+      font-size: em(21px, 24px);
+      color: $gray;
+      position: absolute;
+      background-color: $dark-thin;
+      padding: 0 em(8px, 21px);
+    }
+    &::before {
+      top: 0;
+      left: em(18px, 24px);
+      transform: translateY(-50%);
+    }
+    &::after {
+      bottom: 0;
+      right: em(18px, 24px);
+      transform: translateY(50%);
+    }
+  }
+  // .quote__author
+  &__author {
+    padding: em(16px, 24px);
+    font-size: 1em;
+    line-height: em(32px, 24px);
+    font-weight: 400;
+    border: em(1px, 24px) solid $gray;
+    border-top: none;
+    position: absolute;
+    right: em(-1px, 24px);
+    bottom: 0;
+    transform: translateY(100%);
+    &::before {
+      content: "-";
+      // margin-right: em(18px, 24px);
+    }
+  }
+}
