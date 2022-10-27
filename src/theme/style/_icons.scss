@@ -1,18 +1,26 @@
 $icomoon-font-family: "icomoon" !default;
 $icomoon-font-path: "../fonts/" !default;
 
-$icon-bitcoin: "\e900";
-$icon-card: "\e901";
-$icon-mail: "\e902";
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: "fonts" !default;
+
+$icon-bitcoin: "\e90c";
+$icon-card: "\e90d";
+$icon-mail: "\e90e";
+$icon-twitter: "\e90f";
+$icon-telegram: "\e910";
+$icon-figma: "\e911";
+$icon-comma: "\e912";
+$icon-arrow-right-custom: "\e913";
+$icon-play: "\e90b";
 $icon-github: "\e903";
 $icon-dribble: "\e904";
-$icon-figma: "\e905";
 $icon-arrow-double: "\e906";
 $icon-arrow-down: "\e907";
 $icon-arrow-underline-right: "\e908";
 $icon-arrow-right: "\e909";
 $icon-logo: "\e90a";
-$icon-play: "\e90b";
+
 @font-face {
   font-family: "#{$icomoon-font-family}";
   font-display: block;
@@ -35,11 +43,6 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-play {
-  &:before {
-    content: $icon-play;
-  }
-}
 .icon-bitcoin {
   &:before {
     content: $icon-bitcoin;
@@ -55,6 +58,36 @@ i {
     content: $icon-mail;
   }
 }
+.icon-twitter {
+  &:before {
+    content: $icon-twitter;
+  }
+}
+.icon-telegram {
+  &:before {
+    content: $icon-telegram;
+  }
+}
+.icon-figma {
+  &:before {
+    content: $icon-figma;
+  }
+}
+.icon-comma {
+  &:before {
+    content: $icon-comma;
+  }
+}
+.icon-arrow-right-custom {
+  &:before {
+    content: $icon-arrow-right-custom;
+  }
+}
+.icon-play {
+  &:before {
+    content: $icon-play;
+  }
+}
 .icon-github {
   &:before {
     content: $icon-github;
@@ -63,11 +96,6 @@ i {
 .icon-dribble {
   &:before {
     content: $icon-dribble;
-  }
-}
-.icon-figma {
-  &:before {
-    content: $icon-figma;
   }
 }
 .icon-arrow-double {
