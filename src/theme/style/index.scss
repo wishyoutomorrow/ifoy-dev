@@ -67,6 +67,8 @@ h4 {
   border: em(1px, 16px) solid $accent-color;
   display: flex;
   align-items: center;
+  max-width: vw(300px);
+  overflow-wrap: anywhere;
   gap: em(10px, 16px);
   &:hover {
     background-color: #c778dd33;

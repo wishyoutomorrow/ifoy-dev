@@ -63,6 +63,7 @@
   // .projects-item__btns
   &__btns {
     display: flex;
+    flex-wrap: wrap;
     gap: em(16px);
   }
 }
