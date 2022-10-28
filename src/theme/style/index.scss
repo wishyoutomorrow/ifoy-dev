@@ -52,9 +52,9 @@ h4 {
   &::before {
     content: "#";
     color: $accent-color;
-    font-size: rem(16px);
+    font-size: 1em;
     line-height: 0;
-    margin-right: em(3px, 16px);
+    margin-right: vw(3px);
   }
 }
 
@@ -71,7 +71,7 @@ h4 {
   &:hover {
     background-color: #c778dd33;
   }
-  &_demo {
+  &_gray {
     border-color: $gray;
     color: $gray;
     &:hover {
@@ -80,8 +80,29 @@ h4 {
   }
 }
 
+.section-title {
+  font-size: rem(32px);
+  color: $white;
+  position: relative;
+  display: inline-block;
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: em(1px, 32px);
+    background-color: $accent-color;
+    position: absolute;
+    top: 50%;
+    left: 110%;
+    width: vw(512px);
+  }
+}
+.section-content {
+}
+
 // ~~~~~~~~~~~~~~~~~~~ Import other components ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 @import "../components/header/header";
 @import "../components/hero/hero";
 @import "../components/quote/quote";
+@import "../components/projects/projects";
 @import "../components/footer/footer";
