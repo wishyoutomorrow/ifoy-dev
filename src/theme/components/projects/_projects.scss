@@ -21,10 +21,14 @@
   font-size: 1rem;
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   gap: em(16px);
   // .projects-list__item
   &__item {
-    flex: 0 0 330px;
+    flex: 0 0 vw(330px);
+    min-width: em(330px);
+    max-width: em(550px);
   }
 }
 .projects-item {

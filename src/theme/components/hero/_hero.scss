@@ -57,6 +57,7 @@
   &__square {
     width: em(16px);
     height: em(16px);
+    flex: 0 0 auto;
     background-color: $accent-color;
   }
   // .hero-view__text
