@@ -108,8 +108,6 @@ h4 {
     width: vw(512px);
   }
 }
-.section-content {
-}
 
 .technologies {
   margin: 0;
@@ -126,4 +124,5 @@ h4 {
 @import "../components/quote/quote";
 @import "../components/projects/projects";
 @import "../components/skills/skills";
+@import "../components/about/about";
 @import "../components/footer/footer";

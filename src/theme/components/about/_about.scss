@@ -1,0 +1,33 @@
+.about {
+  // .about__title
+  &__title {
+    &::after {
+      width: vw(326px);
+    }
+  }
+  // .about__wrapper
+  &__wrapper {
+    justify-content: space-between;
+  }
+  // .about__content
+  &__content {
+    max-width: vw(515px);
+  }
+  // .about__img
+  &__img {
+    display: block;
+    border-bottom: em(1px) solid $accent-color;
+  }
+}
+
+.about-content {
+  padding-top: em(18px);
+  font-size: 1rem;
+  // .about-content__paragraph
+  &__paragraph {
+    font-weight: 400;
+    font-size: em(16px);
+    line-height: em(21px, 16px);
+    margin: em(30px, 16px) 0;
+  }
+}
