@@ -12,7 +12,7 @@ html {
 }
 body {
   font-weight: $main-weight;
-  font-size: $main-font-size;
+  font-size: rem($main-font-size);
   color: $main-color;
   background-color: $background-color;
   * {
@@ -51,6 +51,15 @@ h4 {
 .hashtag {
   &::before {
     content: "#";
+    color: $accent-color;
+    font-size: 1em;
+    line-height: 0;
+    margin-right: vw(3px);
+  }
+}
+.slash {
+  &::before {
+    content: "/";
     color: $accent-color;
     font-size: 1em;
     line-height: 0;
@@ -100,6 +109,15 @@ h4 {
   }
 }
 .section-content {
+}
+
+.technologies {
+  margin: 0;
+  font-size: rem(16px);
+  border-top: em(1px, 16px) solid $gray;
+  // text-transform: uppercase;
+  padding: em(8px, 16px);
+  line-height: em(32px, 16px);
 }
 
 // ~~~~~~~~~~~~~~~~~~~ Import other components ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

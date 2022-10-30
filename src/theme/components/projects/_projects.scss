@@ -26,9 +26,9 @@
   gap: em(16px);
   // .projects-list__item
   &__item {
-    flex: 0 0 vw(330px);
+    flex: 1 1 0;
     min-width: em(330px);
-    max-width: em(550px);
+    max-width: em(540px);
   }
 }
 .projects-item {
@@ -44,12 +44,6 @@
   }
   // .projects-item__technologies
   &__technologies {
-    margin: 0;
-    font-size: em(16px);
-    border-top: em(1px, 16px) solid $gray;
-    // text-transform: uppercase;
-    padding: em(8px, 16px);
-    line-height: em(32px, 16px);
   }
   // .projects-item__body
   &__body {
