@@ -5,6 +5,7 @@
   padding: 0;
   &_bg-color {
     background-color: $dark-thin;
+    padding: em(37px) 0;
   }
 }
 
@@ -14,5 +15,5 @@
 }
 
 .section {
-  padding: vw(37px) 0;
+  // padding: vw(37px) 0;
 }

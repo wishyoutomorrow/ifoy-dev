@@ -1,8 +1,10 @@
 @import "nav/nav";
 .header {
   font-size: 1rem;
-  padding: em(8px) 0;
   height: em(61px);
+  &__container {
+    padding: em(8px) 0;
+  }
   // .header__wrapper
   &__wrapper {
     justify-content: space-between;
