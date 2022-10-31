@@ -3,9 +3,10 @@
   height: 100%;
   margin: 0 auto;
   padding: 0;
+  padding: em(37px) 0;
+
   &_bg-color {
     background-color: $dark-thin;
-    padding: em(37px) 0;
   }
 }
 

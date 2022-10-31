@@ -6,6 +6,9 @@
       width: vw(127px);
     }
   }
+  &__container {
+    padding-bottom: em(144px);
+  }
   // .contacts__wrapper
   &__wrapper {
     gap: vw(20px);
